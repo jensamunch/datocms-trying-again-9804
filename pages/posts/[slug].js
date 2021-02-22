@@ -106,6 +106,7 @@ export async function getStaticProps({ params, preview = false }) {
             initialData: await request(graphqlRequest),
           },
     },
+    revalidate: 60
   };
 }
 

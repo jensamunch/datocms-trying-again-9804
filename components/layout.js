@@ -2,6 +2,7 @@ import Alert from '../components/alert'
 import Footer from '../components/footer'
 
 export default function Layout({ preview, children }) {
+  console.log(preview)
   return (
     <>
       <div className="min-h-screen">
